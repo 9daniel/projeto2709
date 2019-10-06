@@ -1,0 +1,730 @@
+﻿body {
+    margin:0;
+    background:url("../img/fundo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+}
+
+.tabuleiro{
+    position:absolute;
+    width:430px;
+    height:430px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:solid 15px #ffffff;
+}
+
+.casa-1{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:0%;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-2{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:50px;
+    background:#000;
+    
+    
+}
+
+.casa-3{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:100px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-4{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:150px;
+    background:#000;
+    
+    
+}
+
+.casa-5{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:200px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-6{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:250px;
+    background:#000;
+   
+    
+}
+
+.casa-7{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:300px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-8{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0%;
+    left:350px;
+    background:#000;
+    
+    
+}
+
+.casa-9{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:0px;
+    background:#000;
+    
+    
+}
+
+.casa-10{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:50px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-11{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:100px;
+    background:#000;
+    
+    
+}
+
+.casa-12{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:150px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+.casa-13{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:200px;
+    background:#000;
+    
+    
+}
+
+.casa-14{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:250px;
+    background:#fff;
+    opacity:0.2;
+    
+    
+}
+
+.casa-15{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:300px;
+    background:#000;
+    
+}
+
+.casa-16{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:50px;
+    left:350px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-17{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:0px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-18{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:50px;
+    background:#000;
+     
+}
+
+.casa-19{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:100px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-20{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:150px;
+    background:#000;
+    
+ 
+}
+
+.casa-21{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:200px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-22{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:250px;
+    background:#000;
+     
+}
+
+.casa-23{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:300px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-24{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:100px;
+    left:350px;
+    background:#000;
+    
+ 
+}
+
+.casa-25{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:0px;
+    background:#000;
+    
+    
+}
+
+.casa-26{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:50px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-27{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:100px;
+    background:#000;
+    
+    
+}
+
+.casa-28{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:150px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+.casa-29{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:200px;
+    background:#000;
+    
+    
+}
+
+.casa-30{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:250px;
+    background:#fff;
+    opacity:0.2;
+    
+    
+}
+
+.casa-31{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:300px;
+    background:#000;
+    
+}
+
+.casa-32{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:150px;
+    left:350px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-33{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:0px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-34{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:50px;
+    background:#000;
+     
+}
+
+.casa-35{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:100px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-36{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:150px;
+    background:#000;
+    
+ 
+}
+
+.casa-37{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:200px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-38{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:250px;
+    background:#000;
+     
+}
+
+.casa-39{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:300px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-40{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:200px;
+    left:350px;
+    background:#000;
+    
+ 
+}
+
+.casa-41{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:250px;
+    left:0px;
+    background:#000;
+    
+    
+}
+
+.casa-42{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:250px;
+    left:50px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-43{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:250px;
+    left:100px;
+    background:#000;
+    
+    
+}
+
+.casa-44{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:250px;
+    left:150px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-45{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:250px;
+    left:250px;
+    background:#fff;
+    opacity:0.2;
+    
+    
+}
+
+.casa-46{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:250px;
+    left:300px;
+    background:#000;
+    
+}
+
+.casa-48{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:250px;
+    left:350px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-49{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:0px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-50{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:50px;
+    background:#000;
+     
+}
+
+.casa-51{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:100px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-52{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:150px;
+    background:#000;
+    
+ 
+}
+
+.casa-54{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:200px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-55{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:250px;
+    background:#000;
+     
+}
+
+.casa-56{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:300px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+.casa-57{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:300px;
+    left:350px;
+    background:#000;
+    
+ 
+}
+
+.casa-58{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:0px;
+    background:#000;
+    
+    
+}
+
+.casa-59{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:50px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+
+.casa-60{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:100px;
+    background:#000;
+    
+    
+}
+
+.casa-61{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:150px;
+    background:#fff;
+    opacity:0.2;
+    
+}
+.casa-62{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:200px;
+    background:#000;
+    
+    
+}
+
+.casa-63{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:250px;
+    background:#fff;
+    opacity:0.2;
+    
+    
+}
+
+.casa-64{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:300px;
+    background:#000;
+    
+}
+
+.casa-65{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:350px;
+    left:350px;
+    background:#fff;
+    opacity:0.2;
+ 
+}
+
+/*Tabuleiro usando referencia relativa*/
+.tabuleiro-relativo{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:auto;
+    height:auto;
+    border:solid 15px #fff;
+    transform:translate(-50%,-50%);
+}
+
+.casa{
+    position:relative;
+    width:50px;
+    height:50px;
+    float:left;
+}
+
+.branca{
+    background:#fff;
+    opacity:0.4;
+}
+
+.pretinha{
+    background:#000;
+    opacity:0.4;
+}

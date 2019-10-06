@@ -1,0 +1,6 @@
+C:\Users\etec\Desktop\2709\projeto2709\projeto2709\bin\projeto2709.dll.config
+C:\Users\etec\Desktop\2709\projeto2709\projeto2709\bin\projeto2709.dll
+C:\Users\etec\Desktop\2709\projeto2709\projeto2709\bin\projeto2709.pdb
+C:\Users\etec\Desktop\2709\projeto2709\projeto2709\obj\Debug\projeto2709.csprojResolveAssemblyReference.cache
+C:\Users\etec\Desktop\2709\projeto2709\projeto2709\obj\Debug\projeto2709.dll
+C:\Users\etec\Desktop\2709\projeto2709\projeto2709\obj\Debug\projeto2709.pdb
